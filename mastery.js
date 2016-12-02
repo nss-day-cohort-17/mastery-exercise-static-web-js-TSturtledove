@@ -16,7 +16,7 @@
 
 
 
-    if(isNaN(tall)!==NaN && brick.length === 1){
+    if(!isNaN(tall) && brick.length === 1){
       for(r=1; r<=tall; r++){
         var onespace = " "
         var bump = rock+rock
@@ -34,7 +34,7 @@ document.addEventListener("keyup", function (e) {
   if(e.code=="Enter"){
 
     console.log("I hear you")
-    return hear
+    hear()
   }
 })
  get.addEventListener("click", hear, false)
