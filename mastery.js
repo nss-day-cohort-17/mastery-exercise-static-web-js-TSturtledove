@@ -30,7 +30,7 @@
       for(r=1; r<=tall; r++){
         var onespace = " "
         var bump = rock+rock
-        console.log((onespace*(tall-r))+brick)
+        console.log((onespace.repeat(tall-r))+brick)
         brick= brick + bump
 
       }
