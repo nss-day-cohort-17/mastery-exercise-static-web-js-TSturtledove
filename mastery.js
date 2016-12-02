@@ -32,9 +32,8 @@
 document.addEventListener("keyup", function (e) {
   if(e.code=="Enter"){
 
-    // console.log("I hear you")
-
-    // return hear
+    console.log("I hear you")
+    return hear
   }
 })
  get.addEventListener("click", hear, false)
