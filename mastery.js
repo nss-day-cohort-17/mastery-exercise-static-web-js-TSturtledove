@@ -9,6 +9,7 @@
 
     tall=tall.trim()
     brick=brick.trim()
+    rock=rock.trim()
     console.log(tall)
     console.log(brick)
 
