@@ -26,8 +26,14 @@
 // console.log(brick)
 //  }
  var get=document.getElementsByClassName("HeyListen")[0]
+ function hear(){
+  alert("I can hear you")
+}
 
  get.addEventListener("click", hear, false)
-  function hear(){
-   alert("I can hear you")
- }
+
+ document.addEventListener("keyup",function (e){
+   if(e.code==="Enter"){
+     return hear
+   }
+ })
