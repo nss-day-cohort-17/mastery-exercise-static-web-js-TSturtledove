@@ -22,8 +22,8 @@
 
 
 
-    if(tall!==NaN && brick.length === 1){
-      // tall=parseInt(tall,10)
+    if(isNaN(tall)!==NaN && brick.length === 1){
+      tall=parseInt(tall,10)
       // tall=tall.value
       for(r=1; r<=tall; r++){
         // var onespace = " "
