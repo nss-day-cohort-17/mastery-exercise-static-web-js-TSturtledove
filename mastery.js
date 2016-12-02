@@ -11,6 +11,8 @@
 
    var tall = document.getElementsByClassName("treeHeight")[0].value
    var brick = document.getElementsByClassName("treeBuild")[0].value
+   var rock = document.getElementsByClassName("treeBuild")[0].value
+
   //
   // console.log(tall.trim())
   // console.log(brick.trim())
@@ -23,22 +25,24 @@
 
 
     if(isNaN(tall)!==NaN && brick.length === 1){
-      tall=parseInt(tall,10)
+      // tall=parseInt(tall)
       // tall=tall.value
       for(r=1; r<=tall; r++){
         // var onespace = " "
-        console.log((" ")*(tall-r)+brick)
+        var bump = rock+rock
+        console.log((tall-r)+brick)
+        brick= brick + bump
+
       }
     } else {
       alert("Sorry, it seems you've filled out the boxes wrong.  Try again.")
     }
-
-
   }
 
 
 document.addEventListener("keyup", function (e) {
   if(e.code=="Enter"){
+
     // console.log("I hear you")
 
     // return hear
