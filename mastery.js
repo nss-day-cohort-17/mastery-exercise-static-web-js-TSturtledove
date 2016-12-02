@@ -33,7 +33,7 @@
 document.addEventListener("keyup", function (e) {
   if(e.code=="Enter"){
 
-    console.log("I hear you")
+    // console.log("I hear you")
     hear()
   }
 })
