@@ -28,9 +28,9 @@
       // tall=parseInt(tall)
       // tall=tall.value
       for(r=1; r<=tall; r++){
-        // var onespace = " "
+        var onespace = " "
         var bump = rock+rock
-        console.log((tall-r)+brick)
+        console.log((onespace*(tall-r))+brick)
         brick= brick + bump
 
       }
