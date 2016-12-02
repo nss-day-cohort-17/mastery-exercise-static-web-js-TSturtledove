@@ -1,21 +1,12 @@
 
-
-// tall.trim()
-// brick.trim()
-
-
  var get=document.getElementsByClassName("HeyListen")[0]
 
  function hear(){
-  // alert("I can hear you")
 
    var tall = document.getElementsByClassName("treeHeight")[0].value
    var brick = document.getElementsByClassName("treeBuild")[0].value
    var rock = document.getElementsByClassName("treeBuild")[0].value
 
-  //
-  // console.log(tall.trim())
-  // console.log(brick.trim())
     tall=tall.trim()
     brick=brick.trim()
     console.log(tall)
@@ -25,8 +16,6 @@
 
 
     if(isNaN(tall)!==NaN && brick.length === 1){
-      // tall=parseInt(tall)
-      // tall=tall.value
       for(r=1; r<=tall; r++){
         var onespace = " "
         var bump = rock+rock
