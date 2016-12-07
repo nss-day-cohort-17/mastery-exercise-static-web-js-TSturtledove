@@ -16,7 +16,7 @@
 
 
 
-    if(!isNaN(tall) && brick.length === 1){
+    if(!isNaN(tall) && tall > 0 && brick.length === 1){
       for(r=1; r<=tall; r++){
         var onespace = " "
         var bump = rock+rock
